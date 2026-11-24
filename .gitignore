@@ -40,3 +40,20 @@ __pycache__/
 
 # Standalone build artifacts
 *.tmp.pdf
+
+# Submission-specific files (not relevant to the codebase)
+*.zip
+*.pptx
+*.ppt
+ThirdEye_wireframe.pdf
+*wireframe*.pdf
+*4wire*
+1wireframe*
+Team_Third_Eye_*.pdf
+Team_Third_Eye_*.tex
+golden-puzzling-oasis.md
+scripts/generate_7slide_pdf.py
+scripts/generate_pdf.py
+scripts/compile_latex_to_pdf.py
+scripts/watch_latex.py
+
