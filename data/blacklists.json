@@ -1,0 +1,50 @@
+{
+  "_description": "Rajasthan Police Cyber Crime Threat Intelligence Blacklist (I4C & State Cyber Cell Sync)",
+  "last_updated": "2026-11-21T00:00:00Z",
+  "version": "2026.11.21-R4C",
+  "domains": [
+    "sbi-kyc-verification.xyz",
+    "sbi-reward-points.online",
+    "bijli-bill-alert.top",
+    "raj-electricity-disconnect.xyz",
+    "indiapost-track-parcel.click",
+    "indiapost-redelivery.info",
+    "pm-kisan-yojana-reward.site",
+    "quickcash-instant-loan.xyz",
+    "easyloan-rupee-advance.click",
+    "teenpatti-gold-vip.live",
+    "bet365-india-club.top",
+    "doublemoney-roi-mlm.win",
+    "growcapital-dailyroi.top",
+    "secure-banking-alert.xyz",
+    "update-aadhaar-kyc.cf",
+    "epfo-claim-settlement.ga"
+  ],
+  "phones": [
+    "+919876543210",
+    "+918899001122",
+    "+919123456789",
+    "+917012345678",
+    "+919988776655",
+    "+918012345678",
+    "+919543210987",
+    "+917890123456",
+    "9876543210",
+    "8899001122",
+    "9123456789"
+  ],
+  "upis": [
+    "refund.sbi.kyc@okaxis",
+    "bijlihelpdesk.raj@ptsbi",
+    "indiapost.parcelfee@ybl",
+    "fastloan.disbursal@paytm",
+    "doublemoney.vip@ibl",
+    "teenpatti.cashier@axl",
+    "cyberdesk.support@okicici",
+    "aadhaar.verification.fee@upi"
+  ],
+  "apk_hashes": [
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "a5c88b9a1e3458fa83b9247c4380104e1c27e8a93d3950efb2dae950892a0134"
+  ]
+}

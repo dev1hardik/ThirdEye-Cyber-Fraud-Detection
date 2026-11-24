@@ -1,0 +1,91 @@
+{
+  "sms": [
+    {
+      "id": "sample-sms-1",
+      "title": "SBI YONO KYC Suspension Scam",
+      "tag": "Banking Phishing",
+      "sender": "VK-SBINB",
+      "content": "Dear SBI Customer, Your YONO Account will be blocked today within 2 hours due to pending KYC. Click immediately to update PAN & Aadhaar: https://bit.ly/sbi-kyc-verify or contact Nodal Officer at +919876543210. Pay token verification fee Rs 5 to refund.sbi.kyc@okaxis"
+    },
+    {
+      "id": "sample-sms-2",
+      "title": "Rajasthan JVVNL Electricity Disconnection Alert",
+      "tag": "Utility Extortion",
+      "sender": "BP-JVVNL",
+      "content": "Dear Consumer, Your electricity power will be disconnected tonight at 9:30 PM from JVVNL office because previous month bill was not updated. Immediately call electricity officer at +918899001122 or pay pending bill online http://bijli-bill-alert.top via UPI bijlihelpdesk.raj@ptsbi to avoid disconnection."
+    },
+    {
+      "id": "sample-sms-3",
+      "title": "India Post Speed Post Delivery Hold",
+      "tag": "Parcel Fraud",
+      "sender": "AD-INDPOST",
+      "content": "India Post Alert: Your Speed Post parcel package #IN88921049 cannot be delivered due to incomplete home address. Please update address immediately within 24 hours: https://cutt.ly/post-parcel or submit re-delivery fee Rs 25 to indiapost.parcelfee@ybl or call helpline +919123456789"
+    }
+  ],
+  "urls": [
+    {
+      "id": "sample-url-1",
+      "title": "SBI Phishing & OTP Harvester",
+      "tag": "Look-alike Phishing",
+      "content": "https://sbi-kyc-verification.xyz/netbanking/secure-login/verify-otp.php?session=login"
+    },
+    {
+      "id": "sample-url-2",
+      "title": "Predatory Loan & APK Sideload Site",
+      "tag": "Malicious Loan Portal",
+      "content": "http://quickcash-instant-loan.xyz/apply?amount=50000&pan=required"
+    },
+    {
+      "id": "sample-url-3",
+      "title": "Illegal Betting & Money Laundering Portal",
+      "tag": "Illegal Gambling",
+      "content": "https://teenpatti-gold-vip.live/register/cricket-betting-id?ref=bonus100"
+    }
+  ],
+  "apk": [
+    {
+      "id": "sample-apk-1",
+      "title": "CashAdvance Instant Loan (Snoop-Loan Malware)",
+      "tag": "Predatory Spyware",
+      "package_name": "com.quickcash.instant.loan",
+      "app_name": "CashAdvance Fast Rupee",
+      "version": "1.0.4-debug",
+      "certificate": {
+        "issuer": "CN=Android Debug, O=Android, C=US",
+        "is_debug": true,
+        "is_self_signed": true,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "manifest_xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.quickcash.instant.loan\">\n    <uses-permission android:name=\"android.permission.INTERNET\" />\n    <uses-permission android:name=\"android.permission.READ_SMS\" />\n    <uses-permission android:name=\"android.permission.RECEIVE_SMS\" />\n    <uses-permission android:name=\"android.permission.SEND_SMS\" />\n    <uses-permission android:name=\"android.permission.READ_CONTACTS\" />\n    <uses-permission android:name=\"android.permission.READ_CALL_LOG\" />\n    <uses-permission android:name=\"android.permission.CAMERA\" />\n    <uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n    <uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n    <uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\" />\n    <uses-permission android:name=\"android.permission.BIND_ACCESSIBILITY_SERVICE\" />\n    <application android:label=\"CashAdvance Rupee\" android:debuggable=\"true\">\n        <service android:name=\".OverlayAccessibilityService\" android:permission=\"android.permission.BIND_ACCESSIBILITY_SERVICE\">\n            <intent-filter>\n                <action android:name=\"android.accessibilityservice.AccessibilityService\" />\n            </intent-filter>\n        </service>\n    </application>\n</manifest>",
+      "permissions": [
+        "android.permission.READ_SMS",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.SEND_SMS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_CALL_LOG",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        "android.permission.BIND_ACCESSIBILITY_SERVICE"
+      ],
+      "embedded_urls": [
+        "http://api.quickcash-instant-loan.xyz/c2/exfiltrate-contacts",
+        "http://185.220.101.5/payload/drop.apk"
+      ],
+      "embedded_iocs": [
+        { "type": "upi", "value": "fastloan.disbursal@paytm" },
+        { "type": "phone", "value": "+917012345678" }
+      ]
+    }
+  ],
+  "websites": [
+    {
+      "id": "sample-site-1",
+      "title": "DoubleMoney Crypto MLM Ponzi Scheme",
+      "tag": "Investment Fraud",
+      "url": "http://doublemoney-roi-mlm.win",
+      "html": "<!DOCTYPE html><html><head><title>DoubleMoney India - 200% Guaranteed Profit</title></head><body><header><h1>Welcome to DoubleMoney India Club</h1><p class='badge'>SEBI registered & RBI approved digital asset scheme</p></header><main><section class='hero'><h2>Guaranteed 200% Fixed Return in 7 Days!</h2><p>Risk-free investment with 15% daily ROI compound interest paid directly to your wallet.</p><button onclick='join()'>Invest Now With UPI</button></section><section class='mlm'><h3>Multi-Tier Level Income Opportunity</h3><p>Join downline now! 5 levels of binary income and referral bonus. Auto pool income of Rs 50,000 every week!</p></section><section class='payment'><h3>Deposit Wallet</h3><p>Transfer activation fee to UPI: <strong>doublemoney.vip@ibl</strong> or <strong>earncompound@upi</strong></p><p>USDT (TRC20) Deposit: <code>TJg4X8k7zLpQ3vB7qN4nK9mE6rF8sD2tY</code></p><p>For VIP support WhatsApp: <strong>+919988776655</strong></p></section></main></body></html>"
+    }
+  ]
+}

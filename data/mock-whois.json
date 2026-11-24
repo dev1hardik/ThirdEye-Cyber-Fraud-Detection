@@ -1,0 +1,115 @@
+{
+  "_description": "Offline Simulated WHOIS & DNS Threat Database for Fast Triage",
+  "domains": {
+    "sbi-kyc-verification.xyz": {
+      "registrar": "NameCheap, Inc.",
+      "created_date": "2026-11-18T10:14:00Z",
+      "age_days": 3,
+      "registrant_country": "RU",
+      "privacy_protected": true,
+      "nameservers": ["ns1.hostinger.com", "ns2.hostinger.com"],
+      "ssl_issuer": "Let's Encrypt Free DV",
+      "category": "High Risk Phishing",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "bijli-bill-alert.top": {
+      "registrar": "Porkbun LLC",
+      "created_date": "2026-11-15T04:22:00Z",
+      "age_days": 6,
+      "registrant_country": "HK",
+      "privacy_protected": true,
+      "nameservers": ["dns1.registrar-servers.com", "dns2.registrar-servers.com"],
+      "ssl_issuer": "cPanel Free SSL",
+      "category": "Utility Scam",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "indiapost-track-parcel.click": {
+      "registrar": "Dynadot LLC",
+      "created_date": "2026-11-19T18:00:00Z",
+      "age_days": 2,
+      "registrant_country": "CN",
+      "privacy_protected": true,
+      "nameservers": ["ns1.topdns.me", "ns2.topdns.me"],
+      "ssl_issuer": "ZeroSSL Free",
+      "category": "Delivery Scam / Credential Harvester",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "pm-kisan-yojana-reward.site": {
+      "registrar": "Hostinger Operations, UAB",
+      "created_date": "2026-11-10T12:00:00Z",
+      "age_days": 11,
+      "registrant_country": "NG",
+      "privacy_protected": true,
+      "nameservers": ["ns1.parkingcrew.net", "ns2.parkingcrew.net"],
+      "ssl_issuer": "Self-Signed",
+      "category": "Subsidy Scam / Bank Drainer",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "quickcash-instant-loan.xyz": {
+      "registrar": "Tucows Domains Inc.",
+      "created_date": "2026-11-12T08:30:00Z",
+      "age_days": 9,
+      "registrant_country": "KH",
+      "privacy_protected": true,
+      "nameservers": ["ns1.cloudflare.com", "ns2.cloudflare.com"],
+      "ssl_issuer": "Cloudflare Inc ECC CA-3",
+      "category": "Predatory Loan / Malware Sideload",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "teenpatti-gold-vip.live": {
+      "registrar": "Alibaba Cloud Computing Ltd",
+      "created_date": "2026-10-25T14:15:00Z",
+      "age_days": 27,
+      "registrant_country": "MM",
+      "privacy_protected": true,
+      "nameservers": ["ns1.alidns.com", "ns2.alidns.com"],
+      "ssl_issuer": "DigiCert Free Trial",
+      "category": "Illegal Gambling & Crypto Laundering",
+      "threat_status": "FLAGGED_SUSPICIOUS"
+    },
+    "doublemoney-roi-mlm.win": {
+      "registrar": "Public Domain Registry",
+      "created_date": "2026-11-14T02:11:00Z",
+      "age_days": 7,
+      "registrant_country": "SC",
+      "privacy_protected": true,
+      "nameservers": ["ns1.offshoredns.ru", "ns2.offshoredns.ru"],
+      "ssl_issuer": "Let's Encrypt Free DV",
+      "category": "Ponzi Investment Scam",
+      "threat_status": "FLAGGED_MALICIOUS"
+    },
+    "sbi.co.in": {
+      "registrar": "National Informatics Centre (NIC)",
+      "created_date": "2000-01-01T00:00:00Z",
+      "age_days": 9820,
+      "registrant_country": "IN",
+      "privacy_protected": false,
+      "nameservers": ["ns1.sbi.co.in", "ns2.sbi.co.in"],
+      "ssl_issuer": "DigiCert Global Root CA (EV)",
+      "category": "Official Financial Institution",
+      "threat_status": "LEGITIMATE_VERIFIED"
+    },
+    "onlinesbi.sbi": {
+      "registrar": "State Bank of India (.sbi registry operator)",
+      "created_date": "2017-05-15T00:00:00Z",
+      "age_days": 3477,
+      "registrant_country": "IN",
+      "privacy_protected": false,
+      "nameservers": ["ns1.nic.in", "ns2.nic.in"],
+      "ssl_issuer": "DigiCert EV SHA256",
+      "category": "Official Banking Portal",
+      "threat_status": "LEGITIMATE_VERIFIED"
+    },
+    "police.rajasthan.gov.in": {
+      "registrar": "National Informatics Centre (Govt of India)",
+      "created_date": "2002-04-10T00:00:00Z",
+      "age_days": 8990,
+      "registrant_country": "IN",
+      "privacy_protected": false,
+      "nameservers": ["ns1.gov.in", "ns2.gov.in"],
+      "ssl_issuer": "eMudhra Sub-CA for Gov Domains",
+      "category": "Official Law Enforcement",
+      "threat_status": "LEGITIMATE_VERIFIED"
+    }
+  }
+}
